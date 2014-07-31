@@ -1,0 +1,14 @@
+<h1>Import CSV</h1>
+<%= form_tag import_admin_speakers_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag '灌入' %>
+<% end %>
+
+<h1>Or</h1>
+<%= simple_form_for([:admin, @speaker]) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :title %>
+  <%= f.input :org %>
+
+  <%= f.submit %>
+<% end %>

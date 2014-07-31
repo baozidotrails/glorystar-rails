@@ -1,0 +1,19 @@
+<%= simple_form_for([:admin,@staff], html: { mulitpart: true }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :position, collection: Admin::Staff::POSITION %>
+    <%= f.input :email %>
+    <%= f.input :phone %>
+    <%= f.input :blessing %>
+    <%= f.input :dictum %>
+    <%= f.input :quit %>
+    <%= f.input :photo, as: :file %>
+    <%= f.input :remote_photo_url %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

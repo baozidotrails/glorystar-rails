@@ -1,0 +1,7 @@
+<ul>
+  <li><%= link_to_unless_current 'Dashboard', admin_path %></li>
+  <li><%= link_to_unless_current 'Mange Pages', admin_pages_path %></li>
+  <li><%= link_to_unless_current 'Mange Staffs', admin_staffs_path %></li>
+  <li><%= link_to_unless_current 'Mange Speakers', admin_speakers_path %></li>
+</ul>
+<%= yield %>

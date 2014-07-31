@@ -1,0 +1,7 @@
+<%= render 'sidebar' %>
+<div class="content">
+  <% @staffs.each do |staff| %>
+    <%= image_tag staff.photo_url(:thumb).to_s %>
+    <%= staff.name %>
+  <% end %>
+</div>

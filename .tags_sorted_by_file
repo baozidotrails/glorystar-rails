@@ -1,0 +1,120 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+Admin	app/controllers/admin/dashboard_controller.rb	/^class Admin::DashboardController < ApplicationController$/;"	c
+index	app/controllers/admin/dashboard_controller.rb	/^  def index$/;"	f	class:Admin
+Admin	app/controllers/admin/pages_controller.rb	/^class Admin::PagesController < Admin::DashboardController$/;"	c
+create	app/controllers/admin/pages_controller.rb	/^  def create$/;"	f	class:Admin
+destroy	app/controllers/admin/pages_controller.rb	/^  def destroy$/;"	f	class:Admin
+edit	app/controllers/admin/pages_controller.rb	/^  def edit$/;"	f	class:Admin
+index	app/controllers/admin/pages_controller.rb	/^  def index$/;"	f	class:Admin
+new	app/controllers/admin/pages_controller.rb	/^  def new$/;"	f	class:Admin
+page_params	app/controllers/admin/pages_controller.rb	/^    def page_params$/;"	f	class:Admin
+set_page	app/controllers/admin/pages_controller.rb	/^    def set_page$/;"	f	class:Admin
+show	app/controllers/admin/pages_controller.rb	/^  def show$/;"	f	class:Admin
+update	app/controllers/admin/pages_controller.rb	/^  def update$/;"	f	class:Admin
+Admin	app/controllers/admin/speakers_controller.rb	/^class Admin::SpeakersController < Admin::DashboardController$/;"	c
+create	app/controllers/admin/speakers_controller.rb	/^  def create$/;"	f	class:Admin
+destroy	app/controllers/admin/speakers_controller.rb	/^  def destroy$/;"	f	class:Admin
+edit	app/controllers/admin/speakers_controller.rb	/^  def edit$/;"	f	class:Admin
+import	app/controllers/admin/speakers_controller.rb	/^  def import$/;"	f	class:Admin
+index	app/controllers/admin/speakers_controller.rb	/^  def index$/;"	f	class:Admin
+new	app/controllers/admin/speakers_controller.rb	/^  def new$/;"	f	class:Admin
+set_speaker	app/controllers/admin/speakers_controller.rb	/^  def set_speaker$/;"	f	class:Admin
+speaker_params	app/controllers/admin/speakers_controller.rb	/^  def speaker_params$/;"	f	class:Admin
+update	app/controllers/admin/speakers_controller.rb	/^  def update$/;"	f	class:Admin
+Admin	app/controllers/admin/staffs_controller.rb	/^class Admin::StaffsController < Admin::DashboardController$/;"	c
+create	app/controllers/admin/staffs_controller.rb	/^  def create$/;"	f	class:Admin
+destroy	app/controllers/admin/staffs_controller.rb	/^  def destroy$/;"	f	class:Admin
+edit	app/controllers/admin/staffs_controller.rb	/^  def edit$/;"	f	class:Admin
+index	app/controllers/admin/staffs_controller.rb	/^  def index$/;"	f	class:Admin
+new	app/controllers/admin/staffs_controller.rb	/^  def new$/;"	f	class:Admin
+set_staff	app/controllers/admin/staffs_controller.rb	/^    def set_staff$/;"	f	class:Admin
+show	app/controllers/admin/staffs_controller.rb	/^  def show$/;"	f	class:Admin
+staff_params	app/controllers/admin/staffs_controller.rb	/^    def staff_params$/;"	f	class:Admin
+update	app/controllers/admin/staffs_controller.rb	/^  def update$/;"	f	class:Admin
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+action?	app/controllers/application_controller.rb	/^  def action?(*action)$/;"	f	class:ApplicationController
+ChurchController	app/controllers/church_controller.rb	/^class ChurchController < ApplicationController$/;"	c
+contact	app/controllers/church_controller.rb	/^  def contact$/;"	f	class:ChurchController
+deacon	app/controllers/church_controller.rb	/^  def deacon$/;"	f	class:ChurchController
+elder	app/controllers/church_controller.rb	/^  def elder$/;"	f	class:ChurchController
+fulltime	app/controllers/church_controller.rb	/^  def fulltime$/;"	f	class:ChurchController
+history	app/controllers/church_controller.rb	/^  def history$/;"	f	class:ChurchController
+location	app/controllers/church_controller.rb	/^  def location$/;"	f	class:ChurchController
+organization	app/controllers/church_controller.rb	/^  def organization$/;"	f	class:ChurchController
+traffic	app/controllers/church_controller.rb	/^  def traffic$/;"	f	class:ChurchController
+vision	app/controllers/church_controller.rb	/^  def vision$/;"	f	class:ChurchController
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
+index	app/controllers/pages_controller.rb	/^  def index$/;"	f	class:PagesController
+Admin	app/helpers/admin/dashboard_helper.rb	/^module Admin::DashboardHelper$/;"	m
+Admin	app/helpers/admin/pages_helper.rb	/^module Admin::PagesHelper$/;"	m
+Admin	app/helpers/admin/staffs_helper.rb	/^module Admin::StaffsHelper$/;"	m
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+active?	app/helpers/application_helper.rb	/^  def active?(*controller)$/;"	f	class:ApplicationHelper
+ChurchHelper	app/helpers/church_helper.rb	/^module ChurchHelper$/;"	m
+DepartmentsHelper	app/helpers/departments_helper.rb	/^module DepartmentsHelper$/;"	m
+NewsHelper	app/helpers/news_helper.rb	/^module NewsHelper$/;"	m
+PagesHelper	app/helpers/pages_helper.rb	/^module PagesHelper$/;"	m
+StaffsHelper	app/helpers/staffs_helper.rb	/^module StaffsHelper$/;"	m
+Admin	app/models/admin.rb	/^module Admin$/;"	m
+table_name_prefix	app/models/admin.rb	/^  def self.table_name_prefix$/;"	F	class:Admin
+Admin	app/models/admin/page.rb	/^class Admin::Page < Page$/;"	c
+Admin	app/models/admin/speaker.rb	/^class Admin::Speaker < Speaker$/;"	c
+import	app/models/admin/speaker.rb	/^  def self.import(file)$/;"	F	class:Admin
+Admin	app/models/admin/staff.rb	/^class Admin::Staff < Staff$/;"	c
+Department	app/models/department.rb	/^class Department < ActiveRecord::Base$/;"	c
+News	app/models/news.rb	/^class News < ActiveRecord::Base$/;"	c
+Page	app/models/page.rb	/^class Page < ActiveRecord::Base$/;"	c
+Speaker	app/models/speaker.rb	/^class Speaker < ActiveRecord::Base$/;"	c
+Staff	app/models/staff.rb	/^class Staff < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+PhotoUploader	app/uploaders/photo_uploader.rb	/^class PhotoUploader < CarrierWave::Uploader::Base$/;"	c
+store_dir	app/uploaders/photo_uploader.rb	/^  def store_dir$/;"	f	class:PhotoUploader
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:GlorystarRails
+GlorystarRails	config/application.rb	/^module GlorystarRails$/;"	m
+CreateDepartments	db/migrate/20140716041023_create_departments.rb	/^class CreateDepartments < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140716041023_create_departments.rb	/^  def change$/;"	f	class:CreateDepartments
+CreateNews	db/migrate/20140716041138_create_news.rb	/^class CreateNews < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140716041138_create_news.rb	/^  def change$/;"	f	class:CreateNews
+AddAncestryToPages	db/migrate/20140718111201_add_ancestry_to_pages.rb	/^class AddAncestryToPages < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140718111201_add_ancestry_to_pages.rb	/^  def change$/;"	f	class:AddAncestryToPages
+DeviseCreateUsers	db/migrate/20140721131219_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140721131219_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+DropPages	db/migrate/20140722055150_drop_pages.rb	/^class DropPages < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140722055150_drop_pages.rb	/^  def change$/;"	f	class:DropPages
+CreatePages	db/migrate/20140722055837_create_pages.rb	/^class CreatePages < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140722055837_create_pages.rb	/^  def change$/;"	f	class:CreatePages
+CreateStaffs	db/migrate/20140723064441_create_staffs.rb	/^class CreateStaffs < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140723064441_create_staffs.rb	/^  def change$/;"	f	class:CreateStaffs
+CreateSpeakers	db/migrate/20140730080011_create_speakers.rb	/^class CreateSpeakers < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140730080011_create_speakers.rb	/^  def change$/;"	f	class:CreateSpeakers
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+Admin	test/controllers/admin/dashboard_controller_test.rb	/^class Admin::DashboardControllerTest < ActionController::TestCase$/;"	c
+Admin	test/controllers/admin/pages_controller_test.rb	/^class Admin::PagesControllerTest < ActionController::TestCase$/;"	c
+Admin	test/controllers/admin/staffs_controller_test.rb	/^class Admin::StaffsControllerTest < ActionController::TestCase$/;"	c
+ChurchControllerTest	test/controllers/church_controller_test.rb	/^class ChurchControllerTest < ActionController::TestCase$/;"	c
+DepartmentsControllerTest	test/controllers/departments_controller_test.rb	/^class DepartmentsControllerTest < ActionController::TestCase$/;"	c
+NewsControllerTest	test/controllers/news_controller_test.rb	/^class NewsControllerTest < ActionController::TestCase$/;"	c
+PagesControllerTest	test/controllers/pages_controller_test.rb	/^class PagesControllerTest < ActionController::TestCase$/;"	c
+StaffsControllerTest	test/controllers/staffs_controller_test.rb	/^class StaffsControllerTest < ActionController::TestCase$/;"	c
+StaticPagesControllerTest	test/controllers/static_pages_controller_test.rb	/^class StaticPagesControllerTest < ActionController::TestCase$/;"	c
+Admin	test/helpers/admin/dashboard_helper_test.rb	/^class Admin::DashboardHelperTest < ActionView::TestCase$/;"	c
+Admin	test/helpers/admin/pages_helper_test.rb	/^class Admin::PagesHelperTest < ActionView::TestCase$/;"	c
+Admin	test/helpers/admin/staffs_helper_test.rb	/^class Admin::StaffsHelperTest < ActionView::TestCase$/;"	c
+ChurchHelperTest	test/helpers/church_helper_test.rb	/^class ChurchHelperTest < ActionView::TestCase$/;"	c
+DepartmentsHelperTest	test/helpers/departments_helper_test.rb	/^class DepartmentsHelperTest < ActionView::TestCase$/;"	c
+NewsHelperTest	test/helpers/news_helper_test.rb	/^class NewsHelperTest < ActionView::TestCase$/;"	c
+PagesHelperTest	test/helpers/pages_helper_test.rb	/^class PagesHelperTest < ActionView::TestCase$/;"	c
+StaffsHelperTest	test/helpers/staffs_helper_test.rb	/^class StaffsHelperTest < ActionView::TestCase$/;"	c
+StaticPagesHelperTest	test/helpers/static_pages_helper_test.rb	/^class StaticPagesHelperTest < ActionView::TestCase$/;"	c
+Admin	test/models/admin/page_test.rb	/^class Admin::PageTest < ActiveSupport::TestCase$/;"	c
+Admin	test/models/admin/staff_test.rb	/^class Admin::StaffTest < ActiveSupport::TestCase$/;"	c
+DepartmentTest	test/models/department_test.rb	/^class DepartmentTest < ActiveSupport::TestCase$/;"	c
+NewsTest	test/models/news_test.rb	/^class NewsTest < ActiveSupport::TestCase$/;"	c
+PageTest	test/models/page_test.rb	/^class PageTest < ActiveSupport::TestCase$/;"	c
+StaffTest	test/models/staff_test.rb	/^class StaffTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c

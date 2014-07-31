@@ -1,0 +1,22 @@
+
+<h1>Listing Speakers</h1>
+<%= link_to 'New speaker', new_admin_speaker_path %>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Org</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @speakers.each do |speaker| %>
+      <tr>
+        <td><%= speaker.name %></td>
+        <td><%= speaker.title %></td>
+        <td><%= speaker.org %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
